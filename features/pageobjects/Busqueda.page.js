@@ -7,9 +7,7 @@ class Busqueda extends Page {
 
     async search (username) {
         await this.inputTexto.setValue(username);
-        await this.btnLupa.click();
-        var outerHTML = await $('/html/body/div[4]/div[6]/div[1]/div/div[2]/div[1]/div[1]/h1/span[1]').getHTML();
-        console.log(outerHTML);
+        await this.btnLupa.click();        
     }
 
     async resultado () {
