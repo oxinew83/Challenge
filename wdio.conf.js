@@ -4,7 +4,7 @@ exports.config = {
     // Runner Configuration
     // ====================
     //
-    port: 4723,
+    port: 4725,
     //
     // ==================
     // Specify Test Files
@@ -54,8 +54,8 @@ exports.config = {
     {
         platformName: "Android",
         browserName: "Chrome",
-        "appium:deviceName": "Pixel_XL_API_29",
-        "appium:platformVersion": "11",
+        "appium:deviceName": "emulator-5554",
+        "appium:platformVersion": "11.0",
         "appium:orientation": "PORTRAIT",
     } ]
     ,
